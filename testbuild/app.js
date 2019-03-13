@@ -19,8 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const port = process.env.PORT || 3000;
-
+// const port = process.env.PORT || 3000; //make sure to get the capitalization and lowercases right 
+//this is where express stores web files => css, javascript, images, etc
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 

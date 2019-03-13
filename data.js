@@ -1,6 +1,6 @@
 const data = {
-    name: "Soraya",
-    role: "hi",
+    name: "Trevor",
+    role: "confuserator",
 
     user1: {
         name: "user",
@@ -10,13 +10,13 @@ const data = {
     },
 
     user2: {
-        name: "user",
+        name: "user2",
         role: "designer",
         bio: "some bio info goes here",
-        bioPic: ""
+        bioPic: "/images/hannah.jpg"
     }
 };
 
 module.exports = data;
 
-// throw an image in here, figure out where that image needs to live in the folders, then pull it in, and render it on the page, find an image and dump it in here
+//throw an image here
